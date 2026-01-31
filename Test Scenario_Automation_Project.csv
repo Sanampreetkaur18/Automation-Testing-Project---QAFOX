@@ -1,0 +1,21 @@
+Scenario ID,Feature,Test Scenario Description
+TS_01,Register,Verify user can register using only mandatory fields
+TS_02,Register,Verify navigation to Register page from header
+TS_03,Register,Verify navigation to Register page from Login page
+TS_04,Register,Verify registration with already registered email
+TS_05,Register,Verify validation messages for invalid inputs
+TS_06,Login,Verify login with valid credentials
+TS_07,Login,Verify login with invalid credentials
+TS_08,Login,Verify password field does not allow copy-paste
+TS_09,Login,Verify error message for empty login fields
+TS_10,Logout,Verify user can logout successfully
+TS_11,Logout,Verify user can login immediately after logout
+TS_12,Logout,Verify logout option UI and account logout page UI
+TS_13,Search,Verify search results for valid product
+TS_14,Search,Verify search results for invalid product
+TS_15,Search,Verify grid view for multiple products
+TS_16,Search,Verify list view for multiple products
+TS_17,Product Compare,Verify adding product to comparison from product page
+TS_18,Product Compare,Verify adding product to comparison from search results
+TS_19,Product Compare,Verify comparison page displays selected products
+TS_20,Product Compare,Verify removing product from comparison list
