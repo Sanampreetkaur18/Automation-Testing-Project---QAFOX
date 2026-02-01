@@ -1,0 +1,60 @@
+Metric,Count,,
+Total Test Cases,45,,
+Executed,8,,
+Passed,8,,
+Failed,0,,
+Not Executed,37,,
+Pass Percentage,100%,,
+,,,
+,,,
+,,,
+Test Case ID,Test Case Title,Status,Remarks
+TC_RF_001,Register with mandatory fields,Pass,Worked as expected
+TC_RF_002,Navigation to Register page,Pass,Worked as expected
+TC_RF_003,Register account using all fields,Not Executed,Not Executed
+TC_RF_004,Register with invalid email format,Not Executed,Not Executed
+TC_RF_005,Register with existing email,Not Executed,Not Executed
+TC_RF_006,Verify password masking in register page,Not Executed,Not Executed
+TC_RF_007,Verify confirm password mismatch validation,Not Executed,Not Executed
+TC_RF_008,Verify error messages for empty mandatory fields,Not Executed,Not Executed
+TC_RF_009,Verify register button enable/disable behavior,Not Executed,Not Executed
+TC_RF_010,Verify successful registration confirmation message,Not Executed,Not Executed
+,,,
+TC_LOG_01,Login with valid credentials,Pass,Worked as Expected
+TC_LOG_02,Verify password field masking on login page,Pass,Worked as Expected
+TC_LOG_03,Login with invalid password,Not Executed,Not Executed
+TC_LOG_04,Login with invalid username,Not Executed,Not Executed
+TC_LOG_05,Verify error message on invalid login,Not Executed,Not Executed
+TC_LOG_06,Verify login with empty fields,Not Executed,Not Executed
+TC_LOG_07,Verify login using Enter key,Not Executed,Not Executed
+TC_LOG_08,Verify password masking on login page,Not Executed,Not Executed
+TC_LOG_09,Verify login redirection after success,Not Executed,Not Executed
+TC_LOG_10,Verify session creation after login,Not Executed,Not Executed
+,,,
+TC_LO_01,Logout and re-login immediately,Pass,Worked as expected
+TC_LO_02,Verify Logout button UI after login,Pass,Worked as expected
+TC_LO_03,Verify logout after successful login,Not Executed,Not executed
+TC_LO_04,Verify session termination after logout,Not Executed,Not executed
+TC_LO_05,Verify back button behavior after logout,Not Executed,Not executed
+TC_LO_06,Verify logout option visibility only after login,Not Executed,Not executed
+TC_LO_07,Verify direct URL access after logout,Not Executed,Not executed
+TC_LO_08,Verify logout confirmation message,Not Executed,Not executed
+,,,
+TC_SEARCH_01,Verify list and grid view,Pass,Worked as Expected
+TC_SEARCH_02,Search with valid keyword,Not Executed,Not executed
+TC_SEARCH_03,Search with invalid keyword,Not Executed,Not executed
+TC_SEARCH_04,Verify no result message,Not Executed,Not executed
+TC_SEARCH_05,Search with partial keyword,Not Executed,Not executed
+TC_SEARCH_06,Verify search field empty submission,Not Executed,Not executed
+TC_SEARCH_07,Verify search results count accuracy,Not Executed,Not executed
+,,,
+TC_PC_01,Add product to comparison,Pass,Worked as expected
+TC_PC_02,Compare two products successfully,Not Executed,Not executed
+TC_PC_03,Verify compare button enabled,Not Executed,Not executed
+TC_PC_04,Verify error when compare without products,Not Executed,Not executed
+TC_PC_05,Verify comparison page UI,Not Executed,Not executed
+TC_PC_06,Remove product from comparison list,Not Executed,Not executed
+TC_PC_07,Verify comparison persistence after refresh,Not Executed,Not executed
+TC_PC_08,Verify navigation back from comparison page,Not Executed,Not executed
+TC_PC_09,Compare products with different attributes,Not Executed,Not executed
+TC_PC_10,Verify clear comparison list functionality,Not Executed,Not executed
